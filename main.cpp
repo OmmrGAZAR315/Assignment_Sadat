@@ -40,11 +40,11 @@ int main() {
     int option, chosen, i;
     bool executor = true, oneTime = true;
     struct employee employees[arraySize];
-    employees[0] = {11, "Example", "Manager", 0};
-    employees[1] = {22, "Example2", "Clerk", 0};//bonus  2.5%
-    employees[2] = {33, "Example3", "Clerk", 0};//bonus  2.5%
-    employees[3] = {44, "Example4", "Clerk", 0};//bonus  2.5%
-    employees[4] = {55, "Example5", "Clerk", 0};//bonus  2.5%
+    employees[0] = {11, "ExSmAle", "maNaGeR", 0};
+    employees[1] = {22, "ExAmPle2", "clErK", 0};//bonus  2.5%
+    employees[2] = {33, "ExaMPlE3", "mAnAgEr", 0};//bonus  2.5%
+    employees[3] = {44, "ExaMPLE4", "enGinEeR", 0};//bonus  2.5%
+    employees[4] = {55, "ExAmPle5", "Clerk", 0};//bonus  2.5%
     printf("Welcome HR employee\n");
     while (executor) {
         implementingData(employees);
